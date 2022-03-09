@@ -48,6 +48,14 @@ body {
 .carousel {
   perspective: none !important;
 }
+.homePage {
+  color: #2bbbad;
+}
+#homePage {
+  width: 95vw;
+
+  margin-top: 10rem;
+}
 
 button a {
   color: white;
