@@ -25,12 +25,14 @@ const authLink = setContext((_, { headers }) => {
 });
 
 function App() {
+  const [login, setLogin] = useState("");
+
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        <Navbar login={login} setLogin={setLogin} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home login={login} />} />
           <Route path="/signupPage" element={<SignUpPage />} />
           <Route path="/loginPage" element={<LoginPage />} />
           <Route path="/userPage" element={<UserPage />} />
