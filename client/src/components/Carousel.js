@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
-import one from "./assets/images/birds.jpg";
-import two from "./assets/images/forest_bkgd.jpg";
-import three from "./assets/images/freegan_logo.gif";
-import four from "./assets/images/love_neighbor_wall.jpg";
-import five from "./assets/images/sunset.jpg";
 import thumb1 from "./assets/images/thumb-19.jpg";
 import thumb2 from "./assets/images/thumb-20.jpg";
 import thumb3 from "./assets/images/thumb-21.jpg";
