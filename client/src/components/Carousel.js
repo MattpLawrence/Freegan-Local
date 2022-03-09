@@ -30,33 +30,63 @@ class Carousel extends Component {
       >
         <div className="carousel-item red white-text" href="#one!">
           <h5>Item</h5>
-          <img src="http://placecorgi.com/250" />
-          <p className="white-text">This is your first panel</p>
+          <img src="http://placecorgi.com/260/180?no_track=2" />
+          <p className="white-text">
+            Bacon ipsum dolor amet tempor fugiat hamburger in, alcatra
+            adipisicing salami nostrud fatback reprehenderit ground round short
+            loin. Venison fugiat picanha minim, turkey pariatur kevin. Corned
+            beef prosciutto boudin, ribeye ut t-bone tenderloin burgdoggen
+            chicken deserunt.
+          </p>
         </div>
         <div className="carousel-item amber white-text" href="#two!">
           <h5>Item</h5>
-          <img src="http://placecorgi.com/300" />
-          <p className="white-text">This is your second panel</p>
+          <img src="http://placecorgi.com/260/180?no_track=4" />
+          <p className="white-text">
+            Veniam reprehenderit jerky sunt pork chop tenderloin biltong, in sed
+            magna picanha. Capicola occaecat in, ipsum corned beef jerky irure
+            kevin. Picanha sint fugiat, beef ribs pig ball tip jerky aliqua.
+          </p>
         </div>
         <div className="carousel-item green white-text" href="#three!">
           <h5>Item</h5>
-          <img src="http://placecorgi.com/350" />
-          <p className="white-text">This is your third panel</p>
+          <img src="http://placecorgi.com/260/180?no_track=2" />
+          <p className="white-text">
+            Bacon ipsum dolor amet tempor fugiat hamburger in, alcatra
+            adipisicing salami nostrud fatback reprehenderit ground round short
+            loin. Venison fugiat picanha minim, turkey pariatur kevin. Corned
+            beef prosciutto boudin, ribeye ut t-bone tenderloin burgdoggen
+            chicken deserunt.
+          </p>
         </div>
         <div className="carousel-item blue white-text" href="#four!">
           <h5>Item</h5>
-          <img src="http://placecorgi.com/225" />
-          <p className="white-text">This is your fourth panel</p>
+          <img src="http://placecorgi.com/260/180?no_track=3" />
+          <p className="white-text">
+            Veniam reprehenderit jerky sunt pork chop tenderloin biltong, in sed
+            magna picanha. Capicola occaecat in, ipsum corned beef jerky irure
+            kevin. Picanha sint fugiat, beef ribs pig ball tip jerky aliqua.
+          </p>
         </div>
         <div className="carousel-item red white-text" href="#four!">
           <h5>Item</h5>
-          <img src="http://placecorgi.com/225" />
-          <p className="white-text">This is your fourth panel</p>
+          <img src="http://placecorgi.com/260/180?no_track=4" />
+          <p className="white-text">
+            Bacon ipsum dolor amet tempor fugiat hamburger in, alcatra
+            adipisicing salami nostrud fatback reprehenderit ground round short
+            loin. Venison fugiat picanha minim, turkey pariatur kevin. Corned
+            beef prosciutto boudin, ribeye ut t-bone tenderloin burgdoggen
+            chicken deserunt.
+          </p>
         </div>
         <div className="carousel-item blue white-text" href="#four!">
           <h5>Item</h5>
-          <img src="http://placecorgi.com/225" />
-          <p className="white-text">This is your fourth panel</p>
+          <img src="http://placecorgi.com/260/180?no_track=2" />
+          <p className="white-text">
+            Veniam reprehenderit jerky sunt pork chop tenderloin biltong, in sed
+            magna picanha. Capicola occaecat in, ipsum corned beef jerky irure
+            kevin. Picanha sint fugiat, beef ribs pig ball tip jerky aliqua.
+          </p>
         </div>
       </div>
     );
