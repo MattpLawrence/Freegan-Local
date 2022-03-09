@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles/signup.css";
 
-function SignUpPage() {
+function SignUpPage(props) {
   const [userInfo, setUserInfo] = useState({});
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -138,7 +138,12 @@ function SignUpPage() {
                   type="submit"
                   name="action"
                 >
-                  <Link to={{ pathname: `/userPage` }}>Register</Link>
+                  <Link
+                    to={{ pathname: `/userPage` }}
+                    onClick={() => props.setLogin("true")}
+                  >
+                    Register
+                  </Link>
                   <i className="material-icons right">done</i>
                 </button>
               </div>

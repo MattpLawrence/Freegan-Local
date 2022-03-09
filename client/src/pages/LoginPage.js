@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-function LoginPage() {
+function LoginPage(props) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [userInfo, setUserInfo] = useState("");
@@ -63,7 +63,12 @@ function LoginPage() {
                   type="submit"
                   name="action"
                 >
-                  <Link to={{ pathname: `/userPage` }}>Log In</Link>
+                  <Link
+                    to={{ pathname: `/userPage` }}
+                    onClick={() => props.setLogin("true")}
+                  >
+                    Log In
+                  </Link>
                   <i className="material-icons right">done</i>
                 </button>
               </div>

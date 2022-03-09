@@ -32,9 +32,15 @@ function App() {
       <div className="App">
         <Navbar login={login} setLogin={setLogin} />
         <Routes>
-          <Route path="/" element={<Home login={login} />} />
-          <Route path="/signupPage" element={<SignUpPage />} />
-          <Route path="/loginPage" element={<LoginPage />} />
+          <Route path="/" element={<Home />} />
+          <Route
+            path="/signupPage"
+            element={<SignUpPage login={login} setLogin={setLogin} />}
+          />
+          <Route
+            path="/loginPage"
+            element={<LoginPage login={login} setLogin={setLogin} />}
+          />
           <Route path="/userPage" element={<UserPage />} />
         </Routes>
       </div>
