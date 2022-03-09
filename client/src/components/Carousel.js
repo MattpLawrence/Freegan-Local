@@ -29,19 +29,33 @@ class Carousel extends Component {
         className="carousel "
       >
         <div className="carousel-item red white-text" href="#one!">
-          <h2>First Panel</h2>
+          <h5>Item</h5>
+          <img src="http://placecorgi.com/250" />
           <p className="white-text">This is your first panel</p>
         </div>
         <div className="carousel-item amber white-text" href="#two!">
-          <h2>Second Panel</h2>
+          <h5>Item</h5>
+          <img src="http://placecorgi.com/300" />
           <p className="white-text">This is your second panel</p>
         </div>
         <div className="carousel-item green white-text" href="#three!">
-          <h2>Third Panel</h2>
+          <h5>Item</h5>
+          <img src="http://placecorgi.com/350" />
           <p className="white-text">This is your third panel</p>
         </div>
         <div className="carousel-item blue white-text" href="#four!">
-          <h2>Fourth Panel</h2>
+          <h5>Item</h5>
+          <img src="http://placecorgi.com/225" />
+          <p className="white-text">This is your fourth panel</p>
+        </div>
+        <div className="carousel-item red white-text" href="#four!">
+          <h5>Item</h5>
+          <img src="http://placecorgi.com/225" />
+          <p className="white-text">This is your fourth panel</p>
+        </div>
+        <div className="carousel-item blue white-text" href="#four!">
+          <h5>Item</h5>
+          <img src="http://placecorgi.com/225" />
           <p className="white-text">This is your fourth panel</p>
         </div>
       </div>
