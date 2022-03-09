@@ -48,6 +48,9 @@ body {
 .carousel {
   perspective: none !important;
 }
+.carousel .carousel-item img {
+  width: 100px !important;
+}
 .homePage {
   color: #2bbbad;
 }
