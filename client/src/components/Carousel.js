@@ -6,6 +6,7 @@ import two from "./assets/images/forest_bkgd.jpg";
 import three from "./assets/images/freegan_logo.gif";
 import four from "./assets/images/love_neighbor_wall.jpg";
 import five from "./assets/images/sunset.jpg";
+import thumb from "./assets/images/thumb-19.jpg";
 
 class Carousel extends Component {
   componentDidMount() {
@@ -30,7 +31,7 @@ class Carousel extends Component {
       >
         <div className="carousel-item red white-text" href="#one!">
           <h5>Item</h5>
-          <img src="http://placecorgi.com/260/180?no_track=2" />
+          <img src="http://placecorgi.com/260/180?no_track=1" />
           <p className="white-text">
             Bacon ipsum dolor amet tempor fugiat hamburger in, alcatra
             adipisicing salami nostrud fatback reprehenderit ground round short
