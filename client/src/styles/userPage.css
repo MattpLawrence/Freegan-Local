@@ -1,0 +1,21 @@
+#userPage {
+  width: 95vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.chat-container {
+  /* max-height: 40vh; */
+}
+
+.carousel .carousel-item {
+  height: 400px;
+}
+
+#userPage .row {
+  margin: auto 0px;
+}
+
+.chat-container {
+  margin: 0;
+  margin-top: 10px;
+}
